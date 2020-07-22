@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GWER-Dashboard"
+    }
+  },
+  "defaultProject": "GWER-Dashboard",
+  "cli": {
+    "analytics": false
+  }
 }
