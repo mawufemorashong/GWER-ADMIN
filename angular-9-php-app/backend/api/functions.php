@@ -29,8 +29,8 @@ function encodePassword($password){
 }
 
 
-function getUserData($user_id){
-    $user_result = queryMysql("SELECT * FROM `clients` WHERE `id` = '$user_id'");
+function getUserData($id){
+    $user_result = queryMysql("SELECT * FROM `users` WHERE `id` = '$id'");
     if($user_result->num_rows){
         $result = $user_result->fetch_array(MYSQLI_ASSOC);
     }
