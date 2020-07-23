@@ -2,6 +2,7 @@
 
 /**
  * Returns the list of policies.
+ * basic read fucntion  use for retrieving data from db
  */
 require 'database.php';
 require 'functions.php';
